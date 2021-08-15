@@ -1,0 +1,176 @@
+/* Css For Mobile view first*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+  height: 667px;
+  width: 375px;
+  font-size: 14px;
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  max-width: 375px;
+  height: 100%;
+}
+#icon-logo {
+  margin-top: 120px;
+  width: 90%;
+  height: 200px;
+  background-color: hsl(228, 56%, 26%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px 100px 10px 10px;
+}
+.logo img {
+  padding: 0 0 30px 40px;
+}
+.icon {
+  padding-left: 40px;
+  max-width: 210px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon img {
+  padding: 12px;
+  background-color: hsl(214, 17%, 8%);
+  border-radius: 15px;
+}
+#bottom {
+  margin-top: 20px;
+  height: 170px;
+  width: 90%;
+  background-color: hsl(228, 56%, 26%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+#bottom p {
+  color: rgb(214, 203, 203);
+}
+.full-bar {
+  margin: 20px;
+  height: 19px;
+  width: 250px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  padding: 3px;
+}
+#bar {
+  height: 14px;
+  width: 200px;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  padding-top: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#circle {
+  height: 11px;
+  width: 11px;
+  background: hsl(243, 100%, 93%);
+  border-radius: 50%;
+  margin: 2px 2px 7px 0;
+}
+p span {
+  font-weight: 700;
+  color: rgb(241, 238, 238);
+}
+.para {
+  font-weight: 700;
+  width: 270px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.layover {
+  width: 170px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  transform: translateY(-35px);
+}
+h1 {
+  font-size: 2.5rem;
+}
+.layover span {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: hsl(229, 7%, 55%);
+}
+/* For Desktop view */
+@media only screen and (min-width: 768px) {
+  body {
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg-desktop.png) 0% 110%;
+    background-repeat: no-repeat;
+    background-color: rgb(5, 5, 65);
+  }
+  .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
+    margin-left: 200px;
+  }
+  #icon-logo {
+    margin: 0 0 70px 0;
+    width: 400px;
+  }
+  #bottom {
+    width: 600px;
+    height: 150px;
+    margin: 0 0 20px 30px;
+    border-radius: 5px;
+    align-items: flex-start;
+  }
+  #bottom p {
+    margin-left: 35px;
+  }
+
+  .full-bar {
+    width: 443px;
+    margin-left: 40px;
+  }
+  #bar {
+    width: 300px;
+  }
+  .para {
+    width: 470px;
+    padding: 0;
+  }
+  .layover {
+    position: absolute;
+    transform: translateY(-100px) translateX(325px);
+  }
+  .triangle {
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    position: absolute;
+    transform: translateY(-420px) translateX(1014px);
+    border-right: 50px solid white;
+    border-bottom: 50px solid transparent;
+  }
+}
