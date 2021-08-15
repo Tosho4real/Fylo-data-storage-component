@@ -50,7 +50,7 @@ body {
 }
 #bottom {
   margin-top: 20px;
-  height: 170px;
+  height: 200px;
   width: 90%;
   background-color: hsl(228, 56%, 26%);
   display: flex;
@@ -108,7 +108,7 @@ p span {
   border-radius: 10px;
   align-items: center;
   justify-content: space-evenly;
-  transform: translateY(-35px);
+  transform: translateY(-30px);
 }
 h1 {
   font-size: 2.5rem;
