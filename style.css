@@ -123,20 +123,25 @@ h1 {
   body {
     width: 100%;
     height: 100vh;
-    background: url(images/bg-desktop.png) 0% 110%;
+    background: url(images/bg-desktop.png) 0% 120%;
     background-repeat: no-repeat;
-    background-color: rgb(5, 5, 65);
+    background-color: rgb(3, 3, 36);
   }
   .container {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    max-width: 70%;
-    margin-left: 200px;
+    max-width: 80%;
+    margin-left: 250px;
   }
   #icon-logo {
     margin: 0 0 70px 0;
-    width: 400px;
+    width: 500px;
+    padding-right: 100px;
+  }
+  .icon {
+    max-width: 400;
+    width: 300px;
   }
   #bottom {
     width: 600px;
@@ -150,7 +155,7 @@ h1 {
   }
 
   .full-bar {
-    width: 443px;
+    width: 435px;
     margin-left: 40px;
   }
   #bar {
@@ -161,10 +166,9 @@ h1 {
     padding: 0;
   }
   .layover {
-    width: 250px;
+    width: 250px !important;
     position: relative;
-    transform: translateY(-100px) translateX(-170px);
-    justify-content: space-between;
+    transform: translateY(-100px) translateX(-190px);
   }
   .triangle {
     height: 30px;
