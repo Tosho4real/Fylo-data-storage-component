@@ -161,16 +161,18 @@ h1 {
     padding: 0;
   }
   .layover {
-    position: absolute;
-    transform: translateY(-100px) translateX(325px);
+    width: 250px;
+    position: relative;
+    transform: translateY(-100px) translateX(-170px);
+    justify-content: space-between;
   }
   .triangle {
-    height: 50px;
-    width: 50px;
-    background-color: transparent;
+    height: 30px;
+    width: 30px;
     position: absolute;
-    transform: translateY(-420px) translateX(1014px);
-    border-right: 50px solid white;
-    border-bottom: 50px solid transparent;
+    top: 85%;
+    right: 0;
+    border-right: 30px solid white;
+    border-bottom: 30px solid transparent;
   }
 }
